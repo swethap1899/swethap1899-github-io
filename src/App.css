@@ -1,0 +1,44 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading{
+  letter-spacing: -2px;
+}
+.head{
+  display: inline-flex;
+  align-items: center;
+}
+
+.subtext{
+  opacity: 50%;
+  font-size: smaller;
+}
+.selected{
+  border: 2px solid;
+  border-color: #664de5;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.not-selected{
+  border: 1px solid;
+  border-color: darkgray;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
